@@ -35,12 +35,12 @@
 #   time: Time.now,
 # )
 
-Meeting.create(
-  title: "Exec Presentation",
-  agenda: "Sleep in fear,",
-  location: "Main Office",
-  time: Time.parse("March 16 14:00"),
-)
+# Meeting.create(
+#   title: "Exec Presentation",
+#   agenda: "Sleep in fear,",
+#   location: "Main Office",
+#   time: Time.parse("March 16 14:00"),
+# )
 
 # slot = SpeakingSlot.create(slot_num: 1, topic: "a critical breakdown on the decrease of treat yields in the market", duration: 15, speaker_id: 3, meeting_id: 1)
 # slot = SpeakingSlot.create(slot_num: 2, topic: "novel solutions to gurella market new treats", duration: 20, speaker_id: 1, meeting_id: 1)
@@ -51,3 +51,9 @@ Meeting.create(
 # slot = SpeakingSlot.create(slot_num: 1, topic: "graphs and data by analytics department", duration: 45, speaker_id: 2, meeting_id: 2)
 # slot = SpeakingSlot.create(slot_num: 2, topic: "presentation of bunny killer 5000 v0.01", duration: 90, speaker_id: 1, meeting_id: 2)
 # slot = SpeakingSlot.create(slot_num: 3, topic: "Execuitive boker time", duration: 15, speaker_id: 3, meeting_id: 2)
+
+employees = Employee.create(
+  [{ name: "Sam" },
+   { name: "Tess" },
+   { name: "mark" }]
+)

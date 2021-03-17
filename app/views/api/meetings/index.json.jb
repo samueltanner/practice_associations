@@ -1,0 +1,8 @@
+@meetings.map do |meeting|
+  {
+    title: meeting.title,
+    agenda: meeting.agenda,
+    location: meeting.location,
+    date: meeting.date,
+  }
+end
